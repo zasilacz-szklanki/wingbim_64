@@ -4,8 +4,8 @@ cd src
 make
 copy libbgi.a ..\lib
 copy winbgim.h ..\include
-del *.o
-del *.a
+REM del *.o
+REM del *.a
 cd ..
 make
 test.exe
